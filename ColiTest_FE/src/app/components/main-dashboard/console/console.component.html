@@ -1,0 +1,17 @@
+<div class="bg-black text-white h-[95%] px-2 max-h-[600px] overflow-y-auto">
+    <div *ngFor="let log of logs" class="message">
+      <span>{{ log.timestamp }}</span>
+      <span 
+          [class.text-yellow-500]="log.type === 'warning'" 
+          
+          [class.text-green-700]="log.type === 'success'">
+          {{ log.type.toUpperCase() }}
+      </span>
+      <span>{{ log.message }}</span>
+    </div>
+  </div>
+  <div class="bg-black h-11 w-full mt-2 flex font-bold items-center">
+    <input type="text" placeholder="type command...{send>index>sub>data}" name="" id="" [(ngModel)]="query" class="w-full p-2 bg-black text-white">
+    <button class="text-black size-8 h-full bg-gray-400" (click)="parseQuery()">></button>
+</div>
+      

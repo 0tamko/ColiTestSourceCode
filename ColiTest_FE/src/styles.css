@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    background-color: #EBEBEB;
+}
+
+
+.SLIDER{
+    background-color: #009999;
+    appearance:none;
+}

@@ -1,0 +1,33 @@
+<ul class="ml-4 mt-2 pl-2 border-l-2 border-gray-300">
+    <li *ngFor="let key of getKeys(data)">
+      <!-- Node Header -->
+      <div (click)="toggleNode(key)" class="flex items-center cursor-pointer relative">
+        <!-- Branching Line -->
+        <span class="absolute -left-4 top-1 h-4 border-l-2 border-gray-300"></span>
+        
+        <!-- Expand/Collapse Icon -->
+        <span
+          class="w-4 h-4 mr-2 flex items-center justify-center text-sm font-bold bg-gray-200 rounded-full">
+          {{ expandedNodes[key] ? '-' : '+' }}
+        </span>
+        <span class="font-bold">{{ key }}: {{ data[key]?.ParameterName || 'N/A' }}</span>
+      </div>
+  
+      <!-- Node Details -->
+      <div *ngIf="expandedNodes[key]" class="ml-6">
+        <ul>
+          <li><strong>Access Type:</strong> {{ data[key]?.AccessType || 'N/A' }}</li>
+          <li><strong>Data Type:</strong> {{ data[key]?.DataType || 'N/A' }}</li>
+          <li><strong>Default Value:</strong> {{ data[key]?.DefaultValue || 'N/A' }}</li>
+          <li><strong>Object Type:</strong> {{ data[key]?.ObjectType || 'N/A' }}</li>
+          <li><strong>PDO Mapping:</strong> {{ data[key]?.PDOMapping || 'N/A' }}</li>
+        </ul>
+  
+        <!-- Recursive Rendering for SubIndexes -->
+        <ul *ngIf="data[key]?.SubIndexes" class="ml-4 mt-2 pl-2 border-l-2 border-gray-300">
+          <app-tree-node [data]="data[key]?.SubIndexes"></app-tree-node>
+        </ul>
+      </div>
+    </li>
+  </ul>
+  

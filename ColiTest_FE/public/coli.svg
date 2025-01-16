@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="400mm"
+   height="400mm"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <rect
+     style="display:none;fill:#1a1a1a;stroke-width:0.264583"
+     id="rect1"
+     width="370.44113"
+     height="370.45541"
+     x="14.779432"
+     y="14.772291"
+     rx="6.6145835"
+     ry="6.6145835" />
+  <g
+     id="g1"
+     transform="translate(0.78437115,0.82339301)"
+     style="display:inline">
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:0.417382;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2"
+       width="111.38958"
+       height="23.8125"
+       x="256.35809"
+       y="33.072918"
+       rx="6.6145835"
+       ry="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:0.417382;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-2"
+       width="111.38958"
+       height="23.8125"
+       x="33.072918"
+       y="33.072918"
+       rx="6.6145835"
+       ry="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:12.6752;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-8"
+       width="111.38958"
+       height="23.8125"
+       x="256.35818"
+       y="336.52036"
+       rx="6.6145835"
+       ry="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:12.6752;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-8-1"
+       width="111.38958"
+       height="23.8125"
+       x="33.265526"
+       y="336.52036"
+       rx="6.6145835"
+       ry="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:0.109242;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-8-5"
+       width="109.00833"
+       height="23.8125"
+       x="-360.09393"
+       y="343.95834"
+       transform="rotate(-90)"
+       rx="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:0.109242;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-8-5-6"
+       width="109.00833"
+       height="23.8125"
+       x="-142.08124"
+       y="343.95834"
+       transform="rotate(-90)"
+       rx="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:0.109247;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-8-5-1"
+       width="109.00833"
+       height="23.8125"
+       x="-360.09381"
+       y="33.279293"
+       transform="rotate(-90)"
+       rx="6.6145835"
+       ry="6.6145835" />
+    <rect
+       style="display:inline;fill:#ec6602;fill-opacity:1;fill-rule:nonzero;stroke-width:0.109247;stroke-dasharray:none;paint-order:markers fill stroke"
+       id="rect2-8-5-1-2"
+       width="109.00833"
+       height="23.8125"
+       x="-142.08124"
+       y="33.279293"
+       transform="rotate(-90)"
+       rx="6.6145835"
+       ry="6.6145835" />
+  </g>
+  <g
+     id="g3"
+     transform="translate(1.2062534,0.82339301)"
+     style="fill:#009999;fill-opacity:1">
+    <rect
+       style="fill:#009999;fill-opacity:1;stroke-width:0.218017;paint-order:markers fill stroke"
+       id="shutter_top"
+       width="264.58334"
+       height="79.375"
+       x="67.708328"
+       y="66.145836"
+       rx="0" />
+    <rect
+       style="fill:#009999;fill-opacity:1;stroke-width:0.218017;paint-order:markers fill stroke"
+       id="shutter_bottom"
+       width="264.58334"
+       height="79.375"
+       x="67.708328"
+       y="251.35417" />
+    <rect
+       style="fill:#006464;fill-opacity:1;stroke-width:0.218017;paint-order:markers fill stroke"
+       id="shutter_right"
+       width="264.58334"
+       height="79.375"
+       x="66.145828"
+       y="-332.29166"
+       rx="0"
+       transform="rotate(90)" />
+    <rect
+       style="fill:#006464;fill-opacity:1;stroke-width:0.218017;paint-order:markers fill stroke"
+       id="shutter_left"
+       width="264.58334"
+       height="79.375"
+       x="66.145828"
+       y="-147.08333"
+       transform="rotate(90)" />
+  </g>
+</svg>
